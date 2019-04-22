@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tambah Ruang</title>
+</head>
+<body>
+<?php include 'pages/sidenav.php'; ?>
+<div class="main">
+	<form action="proses.php?a=add-ruang" method="post">
+		<label>Nama Ruang </label>
+		<input type="text" placeholder="Masukkan nama ruang" maxlength="30" name="nama"></input>
+		<br/><br/>
+		<label>Kode Ruang </label>
+		<input type="text" placeholder="Masukkan kode ruang" maxlength="4" name="kode"></input>
+		<br/><br/>
+		<label>Keterangan </label>
+		<input type="text" placeholder="Masukkan keterangan" name="ket"></input>		
+		<br/><br/>
+		<button type="submit">Submit</button>
+	</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,216 @@
+body.login{
+	background: black;
+	font-family:sans-serif;
+}
+.login-form{
+	margin:150px auto;
+	width: 300px;
+	padding: 30px 25px;
+	background: white;
+	border: 1px solid #C4C4C4;
+}
+h1.login-title{
+	margin: -28px -25px 25px;
+	padding: 15px 25px;
+	line-height: 30px;
+	font-size: 25px;
+	font-weight: 300;
+	text-align: center;
+	background: #F7F7F7;
+	color: #adadad;
+}
+.login-input{
+	width: 285px;
+	height: 50px;
+	margin-bottom: 25px;
+	padding-left: 10px;
+	font-size: 15px;
+	background: #fff;
+	border:1px solid #ccc;
+	border-radius: 4px;
+}
+.login-button{
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	background: #ec4b5a;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.sidenav{
+	height: 100%;
+	width: 170px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: black;
+	overflow-x:hidden;
+	padding-top: 20px;
+}
+.sidenav a{
+	padding:6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #ffff;
+	display: block;
+	font-family : sans-serif;
+	font-size : 20px;
+	padding-top : 25px;
+	padding-left : 20px;
+}
+.sidenav a:hover{
+	color: #f1f1f1;
+}
+a.title{
+	color: #fff;
+}
+.main{
+	
+	width : 1000px;
+	text-align : center;
+	margin-top : 100px;
+	margin-left: 425px;
+	font-size: 15px;
+	
+	font-family : Arial;
+}
+.main table{
+
+	width : 900px;
+	height : 150px;
+}
+.main input{
+
+margin-left : 20px;
+}
+
+
+#pinjam{
+  width: 160px;;
+  height: 50px;
+  padding: 0;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background: #46d6ff;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: 5;
+  margin-left : 0px;
+  margin-top : 20px;
+}
+#pinjam p{
+	color : white;
+	font-size : 15px;
+}
+#pinjam a {
+
+	text-decoration : none;
+}
+#kembali{
+  width: 160px;;
+  height: 50px;
+  padding: 0;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background: #46d6ff;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: 5;
+  margin-left : 20px;
+  margin-top : 20px;
+}
+#kembali p{
+	color : white;
+	font-size : 15px;
+}
+#kembali a {
+
+	text-decoration : none;
+}
+
+#mulai{
+  width: 100px;;
+  height: 50px;
+  padding: 0;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background: #46d6ff;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: 5;
+  margin-left : 20px;
+  margin-top : 20px;
+}
+#mulai p{
+	color : white;
+	font-size : 15px;
+}
+#mulai a {
+
+	text-decoration : none;
+}
+
+#pinjam{
+  width: 100px;;
+  height: 50px;
+  padding: 0;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background: #46d6ff;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: 5;
+  margin-left : 20px;
+  margin-top : 20px;
+}
+#pinjam p{
+	color : white;
+	font-size : 15px;
+}
+#pinjam a {
+
+	text-decoration : none;
+}
+
+.cc{
+	font-size : 15px;
+	font-family : Arial;
+}
+
+
+#menu{
+	height : 50px;
+	background-color : #46d6ff;
+	margin-top : 10px;
+
+}
+#menu ul li{
+ 
+ padding-top : 15px;
+ display : block;
+ text-decoration : none;
+ float : left;
+ padding-left : 0px;
+ font-family : Arial;
+ font-size : 15px;
+margin-left : 315px;
+ 
+}
+#menu a {
+	color : white;
+	text-decoration : none;
+	
+}

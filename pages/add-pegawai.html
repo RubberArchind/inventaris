@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tambah Pegawai</title>
+</head>
+<body>
+<?php include 'pages/sidenav.php'; ?>
+<div class="main">
+	<form action="proses.php?a=add-pegawai" method="post">
+		<label>Nama Pegawai </label>
+		<input type="text" placeholder="Masukkan nama pegawai" maxlength="30" name="nama"></input>
+		<br/><br/>
+		<label>NIP </label>
+		<input type="text" placeholder="Masukkan NIP" maxlength="13" name="nip"></input>
+		<br/><br/>
+		<label>Alamat </label>
+		<input type="text" placeholder="Masukkan Alamat" name="alamat"></input>		
+		<br/><br/>
+		<button type="submit">Submit</button>
+	</form>
+	</div>
+</body>
+</html>
